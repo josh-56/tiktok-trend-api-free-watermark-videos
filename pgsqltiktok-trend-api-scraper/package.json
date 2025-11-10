@@ -1,0 +1,27 @@
+{
+  "name": "pgsqltiktok-trend-api-scraper",
+  "version": "1.0.0",
+  "description": "TikTok Trend API Scraper demo project with sample dataset and CLI wrapper.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:sample": "node src/index.js --use-sample-input",
+    "test": "jest"
+  },
+  "keywords": [
+    "tiktok",
+    "scraper",
+    "trends",
+    "automation",
+    "bitbash"
+  ],
+  "author": "Bitbash",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
